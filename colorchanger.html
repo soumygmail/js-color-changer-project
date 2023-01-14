@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <div>
+        <a onclick="bgchange(id)" id="a">#13005A</a>
+        <a onclick="bgchange(id)" id="b">#00337C</a>
+        <a onclick="bgchange(id)" id="c">#1C82AD</a>
+        <a onclick="bgchange(id)" id="d">#03C988</a>
+        <a onclick="bgchange(id)" id="e">#A75D5D</a>
+    </div>
+    <script type="text/javascript">
+
+        const bgchange = (id) => {
+            document.body.style.background = document.getElementById(id).innerHTML;
+        }
+    </script>
+</body>
+</html>
